@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  height: 70px;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 600;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.select {
+  margin-left: 20px;
+  padding: 8px 36px 8px 14px;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #bbb 50%),
+    linear-gradient(135deg, #bbb 50%, transparent 50%);
+  background-position: calc(100% - 20px) center, calc(100% - 15px) center;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+}
+
+.select:hover {
+  border-color: #0059ff;
+  background-color: #252525;
+}
+
+.select:focus {
+  border-color: #357aff;
+  box-shadow: 0 0 6px rgba(0, 89, 255, 0.6);
+}
+
+.select option {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.select option:hover {
+  background-color: #0059ff;
+  color: #fff;
+}
+
+.chatArea {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.message {
+  padding: 20px 24px;
+  border-radius: 12px;
+  max-width: 70%;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #0059ff;
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: #333;
+}
+
+.footer {
+  display: flex;
+  padding: 12px;
+  background-color: #171717;
+  border-top: 1px solid #333;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 10px 18px;
+  background-color: #0059ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #357aff;
+}
+.placeholder {
+  height: 1px;
+  width: 1px;
+}

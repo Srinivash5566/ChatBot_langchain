@@ -1,0 +1,44 @@
+# ----------------------------
+# Python & Virtual Environment
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+*.env
+.env.*
+
+# ----------------------------
+# IDE / Editor Files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS Generated Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs / Temp Files
+# ----------------------------
+*.log
+logs/
+tmp/
