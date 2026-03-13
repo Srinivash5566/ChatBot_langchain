@@ -1,3 +1,27 @@
+ChatBot_langchain is a conversational AI chatbot built using LangChain that enables intelligent question answering and contextual conversations. The system integrates language models with external data sources to provide more accurate and relevant responses.
+
+Features
+
+AI chatbot powered by LangChain
+
+Context-aware conversations
+
+Integration with LLM APIs
+
+Retrieval-based question answering
+
+Extendable architecture for knowledge-based systems
+
+Tech Stack
+
+Python
+
+LangChain
+
+OpenAI / LLM APIs
+
+AI Chatbot Development
+
 <!-- Backend Setup (FastAPI) -->
 
 ### Create and activate a virtual environment
